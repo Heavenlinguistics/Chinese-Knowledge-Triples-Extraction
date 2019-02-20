@@ -34,9 +34,6 @@ def have_r_with(words_li,dpd_li,i,r):
             indices.append(coos)
     return indices
 
-['根据', '我们', '前面', '的', '讨论', '，', '对', '随机变量', '来说', '，', '加上', '和', '乘以', '一个', '常数', '的', '替换', '效果', '就是', '使', '替换', '后', '的', '随机变量', '具有', '零', '均值', '和', '单位', '方差', '。']
-['19:ADV', '3:ATT', '5:ATT', '3:RAD', '1:POB', '1:WP', '19:ADV', '7:POB', '7:RAD', '7:WP', '19:SBV', '18:LAD', '18:ATT', '15:ATT', '13:VOB', '13:RAD', '18:ATT', '11:COO', '0:HED', '19:VOB', '22:ATT', '24:ATT', '22:RAD', '20:DBL', '20:VOB', '27:ATT', '30:ATT', '29:LAD', '27:COO', '25:VOB', '19:WP']        
-
 def get_verbs(words_li,dpd_li,n_i):
      """
     返回与给定名词构成主谓关系的所有动词。注意事先已经确定句中存在一个动词与words_li[n_i]构成主谓关系。
