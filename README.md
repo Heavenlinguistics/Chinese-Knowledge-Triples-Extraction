@@ -1,4 +1,4 @@
-# -bootstrap-
+# Chinese-Knowledge-Triples-Extraction
 bootstrap式知识三元组抽取  开放式实体关系抽取 依靠依存分析确定可能的实体和关系
 
 项目简介：
